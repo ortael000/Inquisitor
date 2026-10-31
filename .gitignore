@@ -1,0 +1,10 @@
+node_modules/
+.npm-cache/
+dist/
+data/
+backups/
+config/sources.json
+.env
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm

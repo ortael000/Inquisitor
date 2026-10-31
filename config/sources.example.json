@@ -1,0 +1,76 @@
+{
+  "marketaux": {
+    "enabled": false,
+    "symbols": [
+      "AAPL"
+    ],
+    "tokenEnv": "MARKETAUX_API_TOKEN",
+    "accessVerified": false,
+    "englishVerified": false,
+    "mappingVerified": false,
+    "pageSize": 3,
+    "maxPages": 30,
+    "maxItems": 90,
+    "maxBytes": 5000000,
+    "timeoutMs": 30000,
+    "requestIntervalMs": 2200
+  },
+  "benzinga": {
+    "enabled": false,
+    "symbols": [],
+    "tokenEnv": "BENZINGA_API_TOKEN",
+    "accessVerified": false,
+    "englishVerified": false,
+    "mappingVerified": false,
+    "pageSize": 100,
+    "maxPages": 100,
+    "maxItems": 10000,
+    "maxBytes": 25000000,
+    "timeoutMs": 30000
+  },
+  "finnhub": {
+    "enabled": false,
+    "symbols": [
+      "AAPL"
+    ],
+    "accessVerified": false,
+    "englishVerified": false,
+    "mappingVerified": false,
+    "pageSize": 1,
+    "maxPages": 100,
+    "maxItems": 10000,
+    "maxBytes": 100000000,
+    "timeoutMs": 45000,
+    "tokenEnv": "FINNHUB_API_KEY",
+    "requestIntervalMs": 1334
+  },
+  "sec_edgar": {
+    "enabled": false,
+    "symbols": [
+      "AAPL"
+    ],
+    "accessVerified": false,
+    "englishVerified": false,
+    "mappingVerified": false,
+    "pageSize": 1,
+    "maxPages": 100,
+    "maxItems": 10000,
+    "maxBytes": 100000000,
+    "timeoutMs": 45000,
+    "auth": "none",
+    "userAgentEnv": "SEC_USER_AGENT",
+    "ciks": {
+      "AAPL": "0000320193"
+    },
+    "forms": [
+      "8-K",
+      "8-K/A",
+      "6-K",
+      "6-K/A"
+    ],
+    "includeExhibits": true,
+    "maxDocumentBytes": 26214400,
+    "maxFilingBytes": 104857600,
+    "requestIntervalMs": 500
+  }
+}

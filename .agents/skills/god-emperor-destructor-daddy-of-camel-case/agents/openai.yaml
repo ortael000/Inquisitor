@@ -1,0 +1,4 @@
+interface:
+  display_name: "god-emperor-destructor-daddy-of-camel-case"
+  short_description: "Apply modular design and code quality practices"
+  default_prompt: "Use $god-emperor-destructor-daddy-of-camel-case to apply the guide's relevant development practices to this task."
